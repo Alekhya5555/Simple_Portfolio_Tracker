@@ -1,0 +1,213 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #cce359;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Header Box Styling */
+h1, h2, h3 {
+  display: inline-block; /* Make them inline elements, so they can be in a box */
+  background-color: #ffffff; /* Background color of the box */
+  border-radius: 8px; /* Rounded corners for the box */
+  padding: 1rem; /* Padding around the header text */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow to give depth */
+  margin: 1rem 0; /* Space around each header box */
+  text-align: center; /* Centers the text inside the box */
+  font-weight: bold; /* Make header text bold */
+  color: #141516; /* Text color */
+}
+
+/* Specific styling for h1 (main header) */
+h1 {
+  background-color: #8588c9; /* Light green background */
+  font-size: 2.5rem;
+}
+
+/* Specific styling for h2 */
+h2 {
+  background-color: #e58b46; /* Orange background */
+  font-size: 1.8rem;
+}
+
+/* Specific styling for h3 */
+h3 {
+  background-color: #72b65f; /* Purple background */
+  font-size: 1.5rem;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+}
+
+/* Header */
+header {
+  background-color: #46e57e;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+/* Dashboard */
+.dashboard {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 1.5rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.dashboard h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.dashboard p {
+  margin: 0.4rem 0;
+}
+
+.dashboard ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard ul li {
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.8rem;
+  background-color: #e2e8f0;
+  border-radius: 4px;
+}
+
+/* Form */
+form {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+form input, form button, form select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #e54651;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #8bca38;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table thead {
+  background-color: #e58b46;
+  color: white;
+}
+
+table thead th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #d1d5db;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+table tbody td {
+  padding: 1rem;
+  text-align: left;
+}
+
+table tbody tr:hover {
+  background-color: #e5e7eb;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #46ade5;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #38adca;
+}
+
+.btn-danger {
+  background-color: #ef4444;
+}
+
+.btn-danger:hover {
+  background-color: #dc2626;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  background-color: #1f2937;
+  color: white;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
